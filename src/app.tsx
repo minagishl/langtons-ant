@@ -43,7 +43,7 @@ export function App() {
   }, [antPosition, antDirection]);
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center flex-col">
+    <div className="h-screen w-screen flex items-center justify-center flex-col p-10">
       <div className="aspect-square flex flex-wrap max-w-3xl w-full mx-auto border border-gray-300">
         {Array.from({ length: size * size }).map((_, i) => (
           <div
