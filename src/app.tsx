@@ -12,7 +12,7 @@ export function App() {
   const [grid, setGrid] = useState(Array(size * size).fill(false));
   const [count, setCount] = useState(0);
   const [antPosition, setAntPosition] = useState(Math.floor((size * size) / 2));
-  const [antDirection, setAntDirection] = useState(0); // 0: right, 1: down, 2: left, 3: up
+  const [antDirection, setAntDirection] = useState(2); // 0: right, 1: down, 2: left, 3: up
 
   useEffect(() => {
     const interval = setInterval(() => {
